@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #222222;
+  display: flex;
+  
+
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding-left: 5vw; */
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222222;
+  background-color:#34A5DA;
+  width: 100vw;
+  height: 11.7vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+}
+#head{
+  display: flex;
+  padding-left: 5vw;
+}
+
+.card{
+  display: flex;
+  background-color: #EBEBEB;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-top: 12vh;
+  width: 84vw;
+  height: 53vh;
+  flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  font-size: 1.05rem;
+}
+#pageCount{
+  display:flex;
+  justify-content: flex-end;
+  font-size: 1.7rem;
+  font-weight: 750;
+  padding-right: 1vw;
+}
+h1{
+  display:flex;
+  padding-left: 5vw;
+  padding-top:-5vh;
+  text-decoration: underline;
+  text-decoration-color: #34A5DA;
+
+}
+.info{
+  display:flex;
+  padding-left: 5vw;
+}
+li{
+  display:flex;
+  padding-left: 5vw;
+}
+
+.buttons{
+  display:flex;
+  justify-content: space-between;
+  margin-left: 3.5vw;
+  margin-right: 3.5vw;
+  margin-top: .7vh;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  color: #ebebeb;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue";
+  font-weight: 700; 
+  font-size: 1.2rem;
+
+}
